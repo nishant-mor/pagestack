@@ -10,7 +10,7 @@ var session = require('express-session');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/test');
+mongoose.connect('mongodb://test1:testing1234@ds133932.mlab.com:33932/user-name');
 var db = mongoose.connection;
 
 
