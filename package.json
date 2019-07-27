@@ -10,7 +10,7 @@
     "connect-flash":"*",
     "express-messages":"*",
     "express-session":"*",
-    "express-validator":"*",
+    "express-validator":"4.1.1",
     "mongoose":"*",
     "passport":"*",
     "passport-http":"*",
