@@ -9,7 +9,7 @@ var mongodb = require('mongodb').MongoClient;
 var assert = require('assert');
 var ObjectId = require('mongodb').ObjectID;
 
-var url = 'mongodb://localhost:27017/test';
+var url = 'mongodb://test1:testing1234@ds133932.mlab.com:33932/user-name';
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended : false}));
 
